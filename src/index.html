@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ActiveBox</title>
+
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<meta name="title" content="ActiveBox">
+	<meta name="description" content="Your favorite one page multi purpose template!">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://activebox.webdevskilled.com/">
+	<meta property="og:title" content="ActiveBox">
+	<meta property="og:description" content="Your favorite one page multi purpose template!">
+	<meta property="og:image" content="https://activebox.webdevskilled.com/img/work1.webp">
+
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://activebox.webdevskilled.com/">
+	<meta property="twitter:title" content="ActiveBox">
+	<meta property="twitter:description" content="Your favorite one page multi purpose template!">
+	<meta property="twitter:image" content="https://activebox.webdevskilled.com/img/work1.webp">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	
+	@@include('header.html')
+	@@include('intro.html')
+	@@include('features.html')
+	@@include('works.html')
+	@@include('team.html')
+	@@include('reviews.html')
+	@@include('download.html')
+	@@include('footer.html')
+	@@include('copyright.html')
+	
+	<div id="animatedModal" class="animated-modal modal">
+		<div class="modal__subtitle">
+			Просто заполните форму заявки
+		</div>
+		<div class="modal__descr">
+			и мы перезвоним вам в течении 10 минут
+		</div>
+		<form class="feed-form feed-form-mt25" action="#">
+			<input type="text" placeholder="Ваше имя" name="name" required>
+			<input placeholder="Ваш телефон" name="phone" required>
+			<input type="email" placeholder="Ваш E-mail" name="email" required>
+			<div class="feed-form_policy">
+				<input type="checkbox" required>
+				<span>Я согласен(а) с <a href="policy.html" target="_blank">политикой конфиденциальности</a></span>
+			</div>
+			<button class="button button-submit button--red">Заказать консультацию</button>
+		</form>
+	</div>
+
+	<a href="#page-up" class="page-up">
+		<img src="img/page-up.svg" alt="page-up">
+	</a>
+
+	<script src="js/script.min.js"></script>
+</body>
+</html>
+
+
+
